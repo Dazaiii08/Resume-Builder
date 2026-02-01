@@ -1,0 +1,10 @@
+# Backend
+backend/node_modules
+backend/.env
+
+# Frontend
+Frontend/resume-builder/node_modules
+Frontend/resume-builder/dist
+
+# General
+.DS_Store

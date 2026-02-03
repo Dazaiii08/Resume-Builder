@@ -6,5 +6,3 @@ backend/.env
 Frontend/resume-builder/node_modules
 Frontend/resume-builder/dist
 
-# General
-.DS_Store

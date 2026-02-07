@@ -1,4 +1,4 @@
-export const BASE_URL = import.meta.env.VITE_API_URL;
+export const BASE_URL = "https://resume-builder-3p5m.vercel.app";
 
 // utils/apiPaths.js
 export const API_PATHS = {

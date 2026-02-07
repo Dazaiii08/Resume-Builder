@@ -8,13 +8,16 @@ const resumeRoutes = require("./routes/resumeRoutes")
 
 const app = express();
 
-//Middleware to handle cors
-app.use(
-  cors({
-    origin: process.env.CLIENT_URL,
-    credentials: true,
-  })
-);
+app.use(cors({
+  origin: [
+    "http://localhost:5173",                          // Allow Localhost (for testing)
+    "https://resume-builder-ix1p.vercel.app"    // ✅ Allow your Vercel Frontend
+  ],
+  credentials: true, // Important if you use cookies or sessions
+  methods: ["GET", "POST", "PUT", "DELETE"], // Allow these actions
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
 
 //Connect DB
 connectDB();

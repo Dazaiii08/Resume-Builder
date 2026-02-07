@@ -5,7 +5,6 @@ import { validateEmail } from '../../utils/helper';
 import { UserContext } from '../../context/UserContext';
 import axiosInstance from '../../utils/axiosInstance';
 import { API_PATHS } from "../../utils/apiPaths";
-import api from "../../utils/axiosHelper";
 
 const Login = ({ setCurrentPage }) => {
   const { updateUser } = useContext(UserContext); // ✅ INSIDE component

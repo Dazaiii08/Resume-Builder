@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import Input from '../../components/inputs/Input';
+import Input from '../../components/Inputs/Input';
 import { validateEmail } from '../../utils/helper';
 import { UserContext } from '../../context/UserContext';
 import axiosInstance from '../../utils/axiosInstance';

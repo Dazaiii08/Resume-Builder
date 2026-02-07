@@ -1,4 +1,4 @@
-export const BASE_URL = "https://resume-builder-3p5m.vercel.app";
+export const BASE_URL = "https://resume-builder-tc6s.onrender.com";
 
 // utils/apiPaths.js
 export const API_PATHS = {
